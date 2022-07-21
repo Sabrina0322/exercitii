@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04068BF92889F5C100A0E196 /* beginnerCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068BF82889F5C100A0E196 /* beginnerCoreViewController.swift */; };
+		04068BFB2889F66B00A0E196 /* beginnerFullBodyCardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068BFA2889F66B00A0E196 /* beginnerFullBodyCardioViewController.swift */; };
+		04068BFD2889F69C00A0E196 /* midArmBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068BFC2889F69C00A0E196 /* midArmBackViewController.swift */; };
+		04068BFF2889F6B500A0E196 /* midLegGlutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068BFE2889F6B500A0E196 /* midLegGlutesViewController.swift */; };
+		04068C012889F6D100A0E196 /* midCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068C002889F6D100A0E196 /* midCoreViewController.swift */; };
+		04068C032889F6F500A0E196 /* midFullBodyCardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068C022889F6F500A0E196 /* midFullBodyCardioViewController.swift */; };
+		04068C052889F72500A0E196 /* advancedArmBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068C042889F72500A0E196 /* advancedArmBackViewController.swift */; };
+		04068C072889F76900A0E196 /* advancedLegsGlutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068C062889F76900A0E196 /* advancedLegsGlutesViewController.swift */; };
+		04068C092889F79200A0E196 /* advancedCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068C082889F79200A0E196 /* advancedCoreViewController.swift */; };
+		04068C0B2889F7BD00A0E196 /* advancedFullBodyCardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04068C0A2889F7BD00A0E196 /* advancedFullBodyCardioViewController.swift */; };
 		042D329C28875C22005EAB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D329B28875C22005EAB69 /* AppDelegate.swift */; };
 		042D329E28875C22005EAB69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D329D28875C22005EAB69 /* SceneDelegate.swift */; };
 		042D32A028875C22005EAB69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D329F28875C22005EAB69 /* ViewController.swift */; };
@@ -39,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04068BF82889F5C100A0E196 /* beginnerCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beginnerCoreViewController.swift; sourceTree = "<group>"; };
+		04068BFA2889F66B00A0E196 /* beginnerFullBodyCardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beginnerFullBodyCardioViewController.swift; sourceTree = "<group>"; };
+		04068BFC2889F69C00A0E196 /* midArmBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midArmBackViewController.swift; sourceTree = "<group>"; };
+		04068BFE2889F6B500A0E196 /* midLegGlutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midLegGlutesViewController.swift; sourceTree = "<group>"; };
+		04068C002889F6D100A0E196 /* midCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midCoreViewController.swift; sourceTree = "<group>"; };
+		04068C022889F6F500A0E196 /* midFullBodyCardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midFullBodyCardioViewController.swift; sourceTree = "<group>"; };
+		04068C042889F72500A0E196 /* advancedArmBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advancedArmBackViewController.swift; sourceTree = "<group>"; };
+		04068C062889F76900A0E196 /* advancedLegsGlutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advancedLegsGlutesViewController.swift; sourceTree = "<group>"; };
+		04068C082889F79200A0E196 /* advancedCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advancedCoreViewController.swift; sourceTree = "<group>"; };
+		04068C0A2889F7BD00A0E196 /* advancedFullBodyCardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advancedFullBodyCardioViewController.swift; sourceTree = "<group>"; };
 		042D329828875C22005EAB69 /* exercitii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercitii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042D329B28875C22005EAB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		042D329D28875C22005EAB69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +105,6 @@
 		042D328F28875C22005EAB69 = {
 			isa = PBXGroup;
 			children = (
-				04C4BE202889DBF20092ABF2 /* beginnerLegsGlutesViewController.swift */,
 				042D329A28875C22005EAB69 /* exercitii */,
 				042D32B428875C23005EAB69 /* exercitiiTests */,
 				042D32BE28875C23005EAB69 /* exercitiiUITests */,
@@ -106,10 +125,21 @@
 		042D329A28875C22005EAB69 /* exercitii */ = {
 			isa = PBXGroup;
 			children = (
+				04C4BE202889DBF20092ABF2 /* beginnerLegsGlutesViewController.swift */,
+				04068BF82889F5C100A0E196 /* beginnerCoreViewController.swift */,
 				042D329B28875C22005EAB69 /* AppDelegate.swift */,
 				042D329D28875C22005EAB69 /* SceneDelegate.swift */,
 				042D329F28875C22005EAB69 /* ViewController.swift */,
 				042D32A128875C22005EAB69 /* Main.storyboard */,
+				04068C0A2889F7BD00A0E196 /* advancedFullBodyCardioViewController.swift */,
+				04068C082889F79200A0E196 /* advancedCoreViewController.swift */,
+				04068C062889F76900A0E196 /* advancedLegsGlutesViewController.swift */,
+				04068C042889F72500A0E196 /* advancedArmBackViewController.swift */,
+				04068C022889F6F500A0E196 /* midFullBodyCardioViewController.swift */,
+				04068C002889F6D100A0E196 /* midCoreViewController.swift */,
+				04068BFE2889F6B500A0E196 /* midLegGlutesViewController.swift */,
+				04068BFC2889F69C00A0E196 /* midArmBackViewController.swift */,
+				04068BFA2889F66B00A0E196 /* beginnerFullBodyCardioViewController.swift */,
 				04C4BE1E2889D72C0092ABF2 /* beginnerArmsBackViewController.swift */,
 				042D32A728875C23005EAB69 /* Assets.xcassets */,
 				042D32A928875C23005EAB69 /* LaunchScreen.storyboard */,
@@ -267,11 +297,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04068C032889F6F500A0E196 /* midFullBodyCardioViewController.swift in Sources */,
+				04068C072889F76900A0E196 /* advancedLegsGlutesViewController.swift in Sources */,
 				04C4BE1F2889D72C0092ABF2 /* beginnerArmsBackViewController.swift in Sources */,
+				04068BFB2889F66B00A0E196 /* beginnerFullBodyCardioViewController.swift in Sources */,
 				042D32A628875C22005EAB69 /* exercitii.xcdatamodeld in Sources */,
 				042D32A028875C22005EAB69 /* ViewController.swift in Sources */,
+				04068BFF2889F6B500A0E196 /* midLegGlutesViewController.swift in Sources */,
+				04068C092889F79200A0E196 /* advancedCoreViewController.swift in Sources */,
 				042D329C28875C22005EAB69 /* AppDelegate.swift in Sources */,
+				04068BFD2889F69C00A0E196 /* midArmBackViewController.swift in Sources */,
+				04068BF92889F5C100A0E196 /* beginnerCoreViewController.swift in Sources */,
+				04068C012889F6D100A0E196 /* midCoreViewController.swift in Sources */,
 				042D329E28875C22005EAB69 /* SceneDelegate.swift in Sources */,
+				04068C0B2889F7BD00A0E196 /* advancedFullBodyCardioViewController.swift in Sources */,
+				04068C052889F72500A0E196 /* advancedArmBackViewController.swift in Sources */,
 				04C4BE212889DBF20092ABF2 /* beginnerLegsGlutesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

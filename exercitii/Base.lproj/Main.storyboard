@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -165,10 +165,10 @@
             </objects>
             <point key="canvasLocation" x="2503" y="-1366"/>
         </scene>
-        <!--View Controller-->
+        <!--Beginner Full Body Cardio View Controller-->
         <scene sceneID="Juy-Gg-Ryk">
             <objects>
-                <viewController id="cJ1-St-CJG" sceneMemberID="viewController">
+                <viewController id="cJ1-St-CJG" customClass="beginnerFullBodyCardioViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mxy-QG-PHi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,6 +212,22 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9E-lj-F1j">
+                                <rect key="frame" x="38" y="290" width="338" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HIIT HOORAY | 10 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="cv5-j7-mux"/>
+                                    <action selector="vidLink:" destination="cJ1-St-CJG" eventType="touchUpInside" id="p8C-iE-vqG"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="tRo-H5-aar"/>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="xS3-a2-XPq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7R5-NS-d1c"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -221,10 +237,10 @@
             </objects>
             <point key="canvasLocation" x="3548" y="-372"/>
         </scene>
-        <!--View Controller-->
+        <!--Beginner Core View Controller-->
         <scene sceneID="2e1-cb-iRx">
             <objects>
-                <viewController id="BSN-h6-RNJ" sceneMemberID="viewController">
+                <viewController id="BSN-h6-RNJ" customClass="beginnerCoreViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XPb-xt-PVA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -268,6 +284,22 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bs4-LA-80G">
+                                <rect key="frame" x="38" y="281" width="338" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HIIT + ABS | 10 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="8Yk-tH-EV3"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="BA8-bo-m9O"/>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="KTf-us-fd0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xre-EA-oXF"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -306,21 +338,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYm-le-cAP">
-                                <rect key="frame" x="38" y="293" width="338" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="LOWER BODY HIIT WORKOUT | 10 MINS">
-                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
-                                    <color key="baseForegroundColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="32Q-D3-e1Z"/>
-                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="Xdg-nv-0gZ"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3777FE30-6C43-45E7-84D5-986225D8E7C4" translatesAutoresizingMaskIntoConstraints="NO" id="lGD-2A-cRz">
                                 <rect key="frame" x="42" y="517" width="331" height="318"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -339,6 +356,21 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYm-le-cAP">
+                                <rect key="frame" x="43" y="270" width="338" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="LOWER BODY HIIT WORKOUT | 10 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="32Q-D3-e1Z"/>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="Xdg-nv-0gZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bw1-6Z-TFm"/>
                         <color key="backgroundColor" red="1" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -447,10 +479,10 @@
             </objects>
             <point key="canvasLocation" x="2503" y="3984"/>
         </scene>
-        <!--View Controller-->
+        <!--Advanced Arm Back View Controller-->
         <scene sceneID="Iwa-gP-b6T">
             <objects>
-                <viewController id="6bV-5t-W3Z" sceneMemberID="viewController">
+                <viewController id="6bV-5t-W3Z" customClass="advancedArmBackViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e1d-nH-7UY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -495,6 +527,26 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94A-mW-8E0">
+                                <rect key="frame" x="34" y="289" width="338" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="BACK BURN BETTER POSTURE | 10 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="16x-l1-iyJ"/>
+                                    <action selector="vidLink:" destination="qro-dv-T66" eventType="touchUpInside" id="3aj-1N-c18"/>
+                                    <action selector="vidLink:" destination="cJ1-St-CJG" eventType="touchUpInside" id="5YP-yS-mha"/>
+                                    <action selector="vidLink:" destination="qoR-Ee-ZiG" eventType="touchUpInside" id="Cg7-qg-RDk"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="MMh-gd-3xW"/>
+                                    <action selector="vidLink:" destination="DFq-Yh-Xs3" eventType="touchUpInside" id="Ubd-FD-O9z"/>
+                                    <action selector="vidLink:" destination="6bV-5t-W3Z" eventType="touchUpInside" id="Vh7-DI-Jyz"/>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="thN-Hv-5St"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dVL-59-bdb"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -504,10 +556,10 @@
             </objects>
             <point key="canvasLocation" x="3548" y="3025"/>
         </scene>
-        <!--View Controller-->
+        <!--Advanced Legs Glutes View Controller-->
         <scene sceneID="som-JB-Ab4">
             <objects>
-                <viewController id="K0N-gA-Dyz" sceneMemberID="viewController">
+                <viewController id="K0N-gA-Dyz" customClass="advancedLegsGlutesViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jv3-Ru-s9b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -552,6 +604,27 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qh-JU-AUl">
+                                <rect key="frame" x="52" y="284" width="311" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="INNER THIGH WITH BOOK | 10 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="K0N-gA-Dyz" eventType="touchUpInside" id="73w-p2-P2V"/>
+                                    <action selector="vidLink:" destination="DFq-Yh-Xs3" eventType="touchUpInside" id="BYj-rK-ssb"/>
+                                    <action selector="vidLink:" destination="qoR-Ee-ZiG" eventType="touchUpInside" id="BcF-tq-XAC"/>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="LB0-vo-a4h"/>
+                                    <action selector="vidLink:" destination="qro-dv-T66" eventType="touchUpInside" id="aAP-xX-hj8"/>
+                                    <action selector="vidLink:" destination="cJ1-St-CJG" eventType="touchUpInside" id="aeH-mL-QZ0"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="e8c-Ck-Fq3"/>
+                                    <action selector="vidLink:" destination="6bV-5t-W3Z" eventType="touchUpInside" id="gly-kr-ls8"/>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="uwQ-UN-aZQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MKu-dg-mio"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -559,12 +632,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YMB-6l-w7S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3548" y="3696"/>
+            <point key="canvasLocation" x="3547.826086956522" y="3695.7589285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Advanced Full Body Cardio View Controller-->
         <scene sceneID="eaC-am-W3A">
             <objects>
-                <viewController id="lIS-q0-OLS" sceneMemberID="viewController">
+                <viewController id="lIS-q0-OLS" customClass="advancedFullBodyCardioViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d1J-Lr-qIj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -609,6 +682,29 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ir1-00-kxu">
+                                <rect key="frame" x="52" y="272" width="311" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="INTENSE FULL BODY WORKOUT | 20 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="1VL-mA-15d"/>
+                                    <action selector="vidLink:" destination="cJ1-St-CJG" eventType="touchUpInside" id="7Ci-2G-L9q"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="8pO-n6-nZl"/>
+                                    <action selector="vidLink:" destination="lIS-q0-OLS" eventType="touchUpInside" id="9GT-iw-bFy"/>
+                                    <action selector="vidLink:" destination="8WY-Up-jw9" eventType="touchUpInside" id="LK3-bg-ArY"/>
+                                    <action selector="vidLink:" destination="DFq-Yh-Xs3" eventType="touchUpInside" id="OAx-ky-SCK"/>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="Rih-ze-Imq"/>
+                                    <action selector="vidLink:" destination="qoR-Ee-ZiG" eventType="touchUpInside" id="ZWc-T7-OZz"/>
+                                    <action selector="vidLink:" destination="6bV-5t-W3Z" eventType="touchUpInside" id="bWK-oR-cnc"/>
+                                    <action selector="vidLink:" destination="qro-dv-T66" eventType="touchUpInside" id="yb5-5J-Ddv"/>
+                                    <action selector="vidLink:" destination="K0N-gA-Dyz" eventType="touchUpInside" id="zZ1-6t-gcZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nKL-eb-Eax"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -618,10 +714,10 @@
             </objects>
             <point key="canvasLocation" x="3548" y="5055"/>
         </scene>
-        <!--View Controller-->
+        <!--Advanced Core View Controller-->
         <scene sceneID="RFK-EJ-0Re">
             <objects>
-                <viewController id="8WY-Up-jw9" sceneMemberID="viewController">
+                <viewController id="8WY-Up-jw9" customClass="advancedCoreViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jeg-Pc-RKX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -666,6 +762,28 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZr-9h-zfh">
+                                <rect key="frame" x="52" y="299" width="311" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HOURGLASS ABS | 10 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="6bV-5t-W3Z" eventType="touchUpInside" id="4WA-J9-8gu"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="6fh-VE-KPz"/>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="9fs-7n-JVJ"/>
+                                    <action selector="vidLink:" destination="8WY-Up-jw9" eventType="touchUpInside" id="Mtv-hq-fkI"/>
+                                    <action selector="vidLink:" destination="qoR-Ee-ZiG" eventType="touchUpInside" id="SCG-BH-I2V"/>
+                                    <action selector="vidLink:" destination="DFq-Yh-Xs3" eventType="touchUpInside" id="Sk9-dX-q7E"/>
+                                    <action selector="vidLink:" destination="qro-dv-T66" eventType="touchUpInside" id="UqN-Eu-xPI"/>
+                                    <action selector="vidLink:" destination="cJ1-St-CJG" eventType="touchUpInside" id="ZgJ-kx-xTW"/>
+                                    <action selector="vidLink:" destination="K0N-gA-Dyz" eventType="touchUpInside" id="agj-m2-Bi0"/>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="meJ-7g-0qw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hlF-7A-2U6"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -675,10 +793,10 @@
             </objects>
             <point key="canvasLocation" x="3548" y="4364"/>
         </scene>
-        <!--View Controller-->
+        <!--Mid Core View Controller-->
         <scene sceneID="Zzw-IN-v1e">
             <objects>
-                <viewController id="DFq-Yh-Xs3" sceneMemberID="viewController">
+                <viewController id="DFq-Yh-Xs3" customClass="midCoreViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7n2-e3-sZK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -723,6 +841,24 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJ0-Si-dXK">
+                                <rect key="frame" x="38" y="291" width="338" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ABS PYRAMID | 10 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="Aik-ii-cel"/>
+                                    <action selector="vidLink:" destination="DFq-Yh-Xs3" eventType="touchUpInside" id="Us7-zn-jbk"/>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="itS-Xn-etg"/>
+                                    <action selector="vidLink:" destination="cJ1-St-CJG" eventType="touchUpInside" id="nbP-9u-60e"/>
+                                    <action selector="vidLink:" destination="qro-dv-T66" eventType="touchUpInside" id="ps2-uh-3Tc"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="wYT-2P-tBF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nje-eu-i7E"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -732,10 +868,10 @@
             </objects>
             <point key="canvasLocation" x="3548" y="1647"/>
         </scene>
-        <!--View Controller-->
+        <!--Mid Full Body Cardio View Controller-->
         <scene sceneID="4pP-hI-Jh8">
             <objects>
-                <viewController id="qoR-Ee-ZiG" sceneMemberID="viewController">
+                <viewController id="qoR-Ee-ZiG" customClass="midFullBodyCardioViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8ku-9n-Fjs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -780,6 +916,25 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xze-YD-15m">
+                                <rect key="frame" x="38" y="301" width="338" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="FULL BODY | 20 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="cJ1-St-CJG" eventType="touchUpInside" id="K2V-wU-BGj"/>
+                                    <action selector="vidLink:" destination="DFq-Yh-Xs3" eventType="touchUpInside" id="Rbj-dq-ChI"/>
+                                    <action selector="vidLink:" destination="qro-dv-T66" eventType="touchUpInside" id="Zc0-0j-pqW"/>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="bdC-u4-u9k"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="fio-1Y-ezo"/>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="u7A-0a-x4q"/>
+                                    <action selector="vidLink:" destination="qoR-Ee-ZiG" eventType="touchUpInside" id="ziV-6p-dgf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BtA-wm-ykQ"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -789,10 +944,10 @@
             </objects>
             <point key="canvasLocation" x="3548" y="2336"/>
         </scene>
-        <!--View Controller-->
+        <!--Mid Leg Glutes View Controller-->
         <scene sceneID="l4Y-6s-4Iw">
             <objects>
-                <viewController id="qro-dv-T66" sceneMemberID="viewController">
+                <viewController id="qro-dv-T66" customClass="midLegGlutesViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oHf-r0-nkH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -837,6 +992,23 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbo-am-RwS">
+                                <rect key="frame" x="38" y="275" width="338" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="BUBBLE BUTT | 12 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="cJ1-St-CJG" eventType="touchUpInside" id="2S3-3l-ftd"/>
+                                    <action selector="vidLink:" destination="qro-dv-T66" eventType="touchUpInside" id="WsG-5M-bNt"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="ZOB-X2-da0"/>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="aLb-L3-Hl3"/>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="zWl-ge-uhf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y7r-NV-idx"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -875,21 +1047,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bP-9M-KKD">
-                                <rect key="frame" x="38" y="242" width="338" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ARM DAY CIRCUIT | 5 MINS">
-                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
-                                    <color key="baseForegroundColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="gZl-aA-L5a"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3777FE30-6C43-45E7-84D5-986225D8E7C4" translatesAutoresizingMaskIntoConstraints="NO" id="Ti3-FZ-jMi">
                                 <rect key="frame" x="42" y="511" width="331" height="318"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -909,6 +1066,21 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bP-9M-KKD">
+                                <rect key="frame" x="34" y="251" width="338" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ARM DAY CIRCUIT | 5 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="gZl-aA-L5a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EJm-Ib-ha3"/>
                         <color key="backgroundColor" red="1" green="0.9882352941176471" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1162,10 +1334,10 @@
             </objects>
             <point key="canvasLocation" x="2503" y="1298"/>
         </scene>
-        <!--View Controller-->
+        <!--Mid Arm Back View Controller-->
         <scene sceneID="FmE-fP-ghB">
             <objects>
-                <viewController id="CXR-Fs-DeP" sceneMemberID="viewController">
+                <viewController id="CXR-Fs-DeP" customClass="midArmBackViewController" customModule="exercitii" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2B9-BV-hYo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1210,6 +1382,23 @@
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je7-gz-M20">
+                                <rect key="frame" x="27" y="276" width="360" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="TONED SHOULDER | 8 MINS">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.31372550129999999" green="0.54901963470000004" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vidLink:" destination="R8S-l5-5nH" eventType="touchUpInside" id="Poe-di-VeL"/>
+                                    <action selector="vidLink:" destination="BSN-h6-RNJ" eventType="touchUpInside" id="Y9Z-ph-W79"/>
+                                    <action selector="vidLink:" destination="CXR-Fs-DeP" eventType="touchUpInside" id="c73-5p-j4Y"/>
+                                    <action selector="vidLink:" destination="cJ1-St-CJG" eventType="touchUpInside" id="cYF-EC-Soi"/>
+                                    <action selector="vidLink:" destination="sJU-dy-s17" eventType="touchUpInside" id="lJU-bO-CAW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="L2U-pb-tKk"/>
                         <color key="backgroundColor" red="1" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1217,11 +1406,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WZl-R3-4vp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3548" y="304"/>
+            <point key="canvasLocation" x="3547.826086956522" y="303.34821428571428"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="z6A-iz-6hZ"/>
+        <segue reference="7BA-Ph-Ico"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="3150D69B-C64A-4816-B760-27D242EC971B" width="1117" height="991"/>
@@ -1234,6 +1423,9 @@
         <image name="logo" width="340" height="340"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
