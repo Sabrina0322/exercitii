@@ -17,6 +17,8 @@
 		042D32B628875C23005EAB69 /* exercitiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D32B528875C23005EAB69 /* exercitiiTests.swift */; };
 		042D32C028875C23005EAB69 /* exercitiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D32BF28875C23005EAB69 /* exercitiiUITests.swift */; };
 		042D32C228875C23005EAB69 /* exercitiiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D32C128875C23005EAB69 /* exercitiiUITestsLaunchTests.swift */; };
+		04C4BE1F2889D72C0092ABF2 /* beginnerArmsBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4BE1E2889D72C0092ABF2 /* beginnerArmsBackViewController.swift */; };
+		04C4BE212889DBF20092ABF2 /* beginnerLegsGlutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4BE202889DBF20092ABF2 /* beginnerLegsGlutesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		042D32BB28875C23005EAB69 /* exercitiiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exercitiiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042D32BF28875C23005EAB69 /* exercitiiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercitiiUITests.swift; sourceTree = "<group>"; };
 		042D32C128875C23005EAB69 /* exercitiiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercitiiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04C4BE1E2889D72C0092ABF2 /* beginnerArmsBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beginnerArmsBackViewController.swift; sourceTree = "<group>"; };
+		04C4BE202889DBF20092ABF2 /* beginnerLegsGlutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beginnerLegsGlutesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		042D328F28875C22005EAB69 = {
 			isa = PBXGroup;
 			children = (
+				04C4BE202889DBF20092ABF2 /* beginnerLegsGlutesViewController.swift */,
 				042D329A28875C22005EAB69 /* exercitii */,
 				042D32B428875C23005EAB69 /* exercitiiTests */,
 				042D32BE28875C23005EAB69 /* exercitiiUITests */,
@@ -105,6 +110,7 @@
 				042D329D28875C22005EAB69 /* SceneDelegate.swift */,
 				042D329F28875C22005EAB69 /* ViewController.swift */,
 				042D32A128875C22005EAB69 /* Main.storyboard */,
+				04C4BE1E2889D72C0092ABF2 /* beginnerArmsBackViewController.swift */,
 				042D32A728875C23005EAB69 /* Assets.xcassets */,
 				042D32A928875C23005EAB69 /* LaunchScreen.storyboard */,
 				042D32AC28875C23005EAB69 /* Info.plist */,
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C4BE1F2889D72C0092ABF2 /* beginnerArmsBackViewController.swift in Sources */,
 				042D32A628875C22005EAB69 /* exercitii.xcdatamodeld in Sources */,
 				042D32A028875C22005EAB69 /* ViewController.swift in Sources */,
 				042D329C28875C22005EAB69 /* AppDelegate.swift in Sources */,
 				042D329E28875C22005EAB69 /* SceneDelegate.swift in Sources */,
+				04C4BE212889DBF20092ABF2 /* beginnerLegsGlutesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,4 +626,3 @@
 	};
 	rootObject = 042D329028875C22005EAB69 /* Project object */;
 }
-
