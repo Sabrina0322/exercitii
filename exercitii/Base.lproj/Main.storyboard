@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -41,19 +41,27 @@
                                 </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="omE-oE-J8y">
-                                <rect key="frame" x="0.0" y="793" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="813" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <items>
-                                    <barButtonItem title="about us" width="184.5" id="3q1-yb-j4U"/>
-                                    <barButtonItem title="?" width="322.5" id="45a-Dk-pm9"/>
+                                    <barButtonItem title="about us" width="184.5" id="3q1-yb-j4U">
+                                        <connections>
+                                            <segue destination="rzs-06-7VT" kind="presentation" modalPresentationStyle="fullScreen" id="o7x-f4-huX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="?" width="322.5" id="45a-Dk-pm9">
+                                        <connections>
+                                            <segue destination="chl-AT-DDL" kind="presentation" modalPresentationStyle="fullScreen" id="bZh-8v-D7X"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="1" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.99952393770000003" green="0.9892943501" blue="0.93724715709999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -61,6 +69,77 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-90" y="98"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7q5-2f-HMM">
+            <objects>
+                <viewController id="rzs-06-7VT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ubd-Uq-GhB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Krj-1q-kP9">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <items>
+                                    <barButtonItem title="home" width="184.5" id="Lh7-dB-QrS"/>
+                                    <barButtonItem title="?" width="322.5" id="rz0-IL-0QD"/>
+                                </items>
+                                <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPO-Wa-qN1">
+                                <rect key="frame" x="231" y="198" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Exceritii Kode With Klossy Design (1)" translatesAutoresizingMaskIntoConstraints="NO" id="A2l-zO-XUv">
+                                <rect key="frame" x="0.0" y="22" width="414" height="760"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8HU-9V-lqV"/>
+                        <color key="backgroundColor" red="0.99952393770000003" green="0.9892943501" blue="0.93724715709999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iBX-Gk-UPL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-484.05797101449281" y="748.66071428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KfW-5d-vzD">
+            <objects>
+                <viewController id="chl-AT-DDL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tGB-Q2-8Fi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6eX-tO-46U">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <items>
+                                    <barButtonItem title="home" width="184.5" id="j6h-1x-2Zv"/>
+                                    <barButtonItem title="?" width="322.5" id="WGS-IE-1eM"/>
+                                </items>
+                                <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </toolbar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Exceritii Kode With Klossy Design (2)" translatesAutoresizingMaskIntoConstraints="NO" id="czw-ae-Trg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="769"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1dT-qb-k6E"/>
+                        <color key="backgroundColor" red="0.99952393770000003" green="0.9892943501" blue="0.93724715709999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fKO-aR-pID" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256.52173913043481" y="748.66071428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4DD-ph-D0u">
@@ -1056,12 +1135,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <items>
-                                    <barButtonItem title="home" width="184.5" id="5uH-bI-4PT">
+                                    <barButtonItem title="home" width="430.5" id="5uH-bI-4PT">
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="3Cf-St-GIg"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="&gt;" width="322.5" id="wWF-Nm-FKu"/>
                                 </items>
                                 <color key="tintColor" red="0.13333332540000001" green="0.15294116739999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.95686274770000002" green="0.82352948189999997" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1149,7 +1227,7 @@
                             </toolbar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tjM-g4-R14"/>
-                        <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.99952393770000003" green="0.9892943501" blue="0.93724715709999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1w6-em-0DA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1228,7 +1306,7 @@
                             </toolbar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3si-yZ-f3j"/>
-                        <color key="backgroundColor" red="0.99607843159999998" green="0.98431372640000003" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.99565976860000005" green="0.98521560429999999" blue="0.9411700368" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="moa-qe-HuK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1410,7 +1488,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7BA-Ph-Ico"/>
+        <segue reference="arT-Wo-4Mf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="3150D69B-C64A-4816-B760-27D242EC971B" width="1117" height="991"/>
@@ -1419,6 +1497,8 @@
         <image name="99C12CD9-DA6E-48CB-BDA8-40F3A60914DC" width="881" height="875"/>
         <image name="B5B3FE87-F2F1-4F0F-A5F8-7B1319C7B48C" width="1049" height="986"/>
         <image name="CDA91575-1A4C-4423-AB26-EA41D9DD64F6" width="1058" height="966"/>
+        <image name="Exceritii Kode With Klossy Design (1)" width="1080" height="1920"/>
+        <image name="Exceritii Kode With Klossy Design (2)" width="1080" height="1920"/>
         <image name="FF3E979F-1D68-4A2E-B626-12180E8E2483" width="1007" height="962"/>
         <image name="logo" width="340" height="340"/>
         <systemColor name="labelColor">
